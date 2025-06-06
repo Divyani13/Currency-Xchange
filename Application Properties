@@ -1,4 +1,12 @@
 /*
+spring.datasource.url=jdbc:postgresql://localhost:5432/currencyxchange
+spring.datasource.username=your_db_username
+spring.datasource.password=your_db_password
+external.api.url=https://your-api.com
+*/
+
+Example
+/*
 # application.properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/currencyxchange
 spring.datasource.username=postgres
