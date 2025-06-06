@@ -1,0 +1,8 @@
+/*
+# application.properties
+spring.datasource.url=jdbc:postgresql://localhost:5432/currencyxchange
+spring.datasource.username=postgres
+spring.datasource.password=yourpassword
+spring.jpa.hibernate.ddl-auto=update
+external.api.url=https://api.exchangerateprovider.com
+*/
