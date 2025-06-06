@@ -44,20 +44,14 @@ CurrencyXchange/
 └── README.md
 🧰 Setup Instructions
 1. Clone the repository
-bash
-Copy
-Edit
 git clone https://github.com/your-username/CurrencyXchange.git
 cd CurrencyXchange
 2. Configure the Database
 Option A: PostgreSQL
 Install and run PostgreSQL. Create a database named currencyxchange.
-
 Edit src/main/resources/application.properties:
-
 properties
-Copy
-Edit
+
 spring.datasource.url=jdbc:postgresql://localhost:5432/currencyxchange
 spring.datasource.username=postgres
 spring.datasource.password=yourpassword
@@ -67,8 +61,7 @@ Option B: Use H2 (for testing)
 Replace postgresql dependency in pom.xml with:
 
 xml
-Copy
-Edit
+
 <dependency>
     <groupId>com.h2database</groupId>
     <artifactId>h2</artifactId>
